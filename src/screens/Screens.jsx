@@ -17,7 +17,7 @@ export const CharacterCreation = ({ onStartGame }) => {
         <div className="min-h-screen text-white flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `linear-gradient(rgba(17, 24, 39, 0.75), rgba(17, 24, 39, 0.90)), url('${baseUrl}goat_landing.png')` }}>
             <div className="w-full max-w-6xl bg-gray-800/80 backdrop-blur-md rounded-xl shadow-2xl p-8 space-y-8 border border-gray-700 animate-fade-in-up">
                 <div className="text-center">
-                    <h1 className="text-5xl font-black text-green-400 tracking-tighter italic drop-shadow-lg">GHM<span className="text-white">2026</span></h1>
+                    <h1 className="text-5xl font-black text-green-400 tracking-tighter italic drop-shadow-lg">GHM<span className="text-white">2027</span></h1>
                     <p className="text-gray-300 mt-2 font-bold tracking-widest uppercase text-sm">Professional Caprine Management Simulation</p>
                 </div>
                 <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); onStartGame({ name, style: managerStyles.find(s=>s.id===style), herd: startingHerds.find(h=>h.id===herd), kitColor }); }}>
@@ -656,13 +656,13 @@ export const AboutScreen = ({ record }) => {
 
     return (
         <div className="p-4 md:p-6 space-y-6 animate-fade-in max-w-4xl">
-            <h2 className="text-3xl font-bold text-white mb-6">About GHM 2026</h2>
+            <h2 className="text-3xl font-bold text-white mb-6">About GHM 2027</h2>
             
             <div className="bg-gray-800 p-8 rounded-xl border border-gray-700 shadow-2xl space-y-8 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-64 h-64 bg-green-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 transform translate-x-1/2 -translate-y-1/2"></div>
                 
                 <div className="relative z-10">
-                    <h1 className="text-4xl font-black text-green-400 tracking-tighter italic mb-2">GHM<span className="text-white">2026</span></h1>
+                    <h1 className="text-4xl font-black text-green-400 tracking-tighter italic mb-2">GHM<span className="text-white">2027</span></h1>
                     <p className="text-gray-400 font-bold tracking-widest uppercase text-xs">Professional Caprine Management Simulation</p>
                 </div>
 

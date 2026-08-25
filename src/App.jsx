@@ -82,7 +82,7 @@ export default function App() {
 
         if (herderName.toLowerCase() === 'turnip scart') { kitCol = '#808080'; fName = 'Turnipville, Nebraska'; tro.push({ season: 1, name: 'Better Than A Carrot', icon: '🥕' }); }
 
-        const startDate = new Date(Date.UTC(2026, 2, 1, 12, 0, 0));
+        const startDate = new Date(Date.UTC(2027, 2, 1, 12, 0, 0));
         const pickedComps = [...majorTournamentsPool].sort(() => 0.5 - Math.random()).slice(0, 2).map(c => { const d = new Date(startDate); d.setUTCDate(d.getUTCDate() + generateStat(10, 50)); return { ...c, date: d.toISOString() }; });
 
         let allLeagueTables = {}; let rivalIndex = 0; let cupTeams = [];
