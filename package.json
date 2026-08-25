@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://barnandbee.github.io/goat-herd-manager/",
+  "homepage": "https://barnandbee.github.io/goats/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
